@@ -6,17 +6,17 @@ const NavBarComponent = () => {
     switch (type) {
       case 'text':
         return options.map((option, index) => (
-          <h1 key={index}>{option}</h1>
+          <h1 className='w-10'  key={index}>{option}</h1>
         ));
       case 'checkbox':
         return (
           <>
-            <div className="flex  mb-4 flex-col" onChange={onChange}>
+            <div className="flex mb-4 flex-col w-10" onChange={onChange}>
               {options.map((option) => {
                 return (
                   <div className='flex'>
                     <input id="default-checkbox" type="checkbox" value={option.value} className="" />
-                    <label htmlFor="default-checkbox" className     ="">{option.label}</label>
+                    <label htmlFor="default-checkbox" className="">{option.label}</label>
                   </div>
 
 
@@ -30,12 +30,12 @@ const NavBarComponent = () => {
       case 'star':
         return options.map((option, index) => (
          <div className='flex'>
-           <div key={index} value={option.value} className='flex  w-[200px]'>
-            {[...Array(option.star)].map((_, i) => (
-              <div className='p-1 flex'>
+           <div key={index} value={option.value} className='flex w-[200px]'>
+            {[...Array(option.star)].map(( i) => (
+              <div className='flex'>
                 <svg
                 key={i}
-                className="w-4 h-4 text-yellow-300 ms-1"
+                className="w-4 h-4 text-yellow-300"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -66,8 +66,8 @@ const NavBarComponent = () => {
   };
 
   return (
-    <div>
-      <h4>Label</h4>
+    <div className='w-[200px] bg-white px-2'>
+      <h4 className='w-10'>Label</h4>
       {renderContent('text', ['Tu lanh', 'TV', 'MAYGIAT'])}
       {renderContent('checkbox', [
         { value: 'a', label: 'A' },

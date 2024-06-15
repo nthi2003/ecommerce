@@ -9,7 +9,7 @@ const Defauit = ({children}) => {
       {children} 
       <footer className="bg-blue-600 text-white p-4">
       <div className="container mx-auto text-center">
-        &copy; 2023 Ecommerce Site. All rights reserved.
+      hello
       </div>
     </footer>
     </div>

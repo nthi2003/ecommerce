@@ -2,8 +2,9 @@ import React from 'react'
 
 const CardComponent = () => {
     return (
-        <div className='w-[151px] bg-white border-gray-300 border-solid border h-[320px]'>
-            <div>
+       <div className='mb-[20px] px-1'>
+         <div className='w-[151px] bg-white border-gray-300 border-solid border h-[320px]  '>
+            <div className=''>
 
                 <div className='h-full w-full'>
                     <a href="" className='flex relative cursor-pointer h-full overflow-hidden '>
@@ -65,6 +66,7 @@ const CardComponent = () => {
                 </div>
             </div>
         </div>
+       </div>
 
     )
 }

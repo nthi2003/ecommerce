@@ -12,7 +12,7 @@ const Header = () => {
       <div className='col-start-2 col-end-5 w-full flex relative border border-solid border-1 border-[##dddde3] rounded-[8px] items-center'>
         <CiSearch className='w-[20px] h-[24px] bg-transparent ml-[18px]' />
         <InputComponent placeholder='Tìm kiếm sản phẩm ...'/>
-        <ButtonComponent />
+        <ButtonComponent TextButtom = 'Tìm kiếm' />
       </div>
       <div className='col-start-5 col-end-6 flex items-center gap-[10px]'>
       <CiUser className='text-[30px]' />
