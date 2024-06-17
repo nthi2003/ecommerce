@@ -1,5 +1,6 @@
 
 import ProductDetailsPage from '../components/ProductDetailsPage/ProductDetailsPage'
+import SignInPage from '../components/SignInPage/SignInPage'
 import SignUpPage from '../components/SignUpPage/SignUpPage'
 import TypeProductPage from '../components/TypeProductPage/TypeProductPage'
 import HomePage from '../pages/HomePage/HomePage'
@@ -29,9 +30,14 @@ export const routes = [
         isShowHeader: true
     },
     {
+        path: '/sign-in',
+        page: SignInPage,
+        isShowHeader: false
+    },
+    {
         path: '/sign-up',
         page: SignUpPage,
-        isShowHeader: true
+        isShowHeader: false
     },
     {
         path: '/product-details',

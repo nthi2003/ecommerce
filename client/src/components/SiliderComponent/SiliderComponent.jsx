@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from 'react-slick'
+import '../../css/index.css'
 const SiliderComponent = ({arrImg}) => {
     var settings = {
         dots: true,
@@ -11,7 +12,7 @@ const SiliderComponent = ({arrImg}) => {
         autoplaySpeed: 1000
       };
   return (
-    <Slider {...settings}>
+    <Slider {...settings} >
            {arrImg.map((image) => {
             return (
                 <img src={image} alt="slider" preview={false} className='h-[50%]'/>

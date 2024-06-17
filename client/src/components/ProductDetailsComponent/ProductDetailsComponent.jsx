@@ -15,7 +15,7 @@ const ProductDetailsComponent = () => {
       <div className='w-[30%] bg-white mr-[10px]  '>
         <div className='grid grid-col-4  '>
           <div className='p-4 '>
-            <img className='w-[264px] h-[264px] ml-[50px] border border-slate-200  mb-2 rounded-sm border-solid' src="https://salt.tikicdn.com/cache/750x750/ts/product/14/9b/5e/061d21940b5615ef4f17675c7b39526c.jpg.webp" alt="" />
+            <img className='w-[264px] h-[264px] md:ml-[30px] lg:ml-[70px]  border border-slate-200  mb-2 rounded-sm border-solid' src="https://salt.tikicdn.com/cache/750x750/ts/product/14/9b/5e/061d21940b5615ef4f17675c7b39526c.jpg.webp" alt="" />
             <div className='flex items-center overflow-x-scroll overflow-y-hidden scrollbar     '>
               <img src="https://salt.tikicdn.com/cache/750x750/ts/product/14/9b/5e/061d21940b5615ef4f17675c7b39526c.jpg.webp" alt="" className='w-[100px] border border-slate-200 ml-2 rounded-sm border-solid' preview='false' />
               <img src="https://salt.tikicdn.com/cache/750x750/ts/product/14/9b/5e/061d21940b5615ef4f17675c7b39526c.jpg.webp" alt="" className='w-[100px] border border-slate-200 ml-2 rounded-sm border-solid' />

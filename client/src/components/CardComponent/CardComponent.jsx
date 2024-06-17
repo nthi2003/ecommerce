@@ -2,8 +2,8 @@ import React from 'react'
 
 const CardComponent = () => {
     return (
-       <div className='mb-[20px] px-1'>
-         <div className='w-[151px] bg-white border-gray-300 border-solid border h-[320px]  '>
+      
+         <div className='lg:w-[151px] sm:w-[50px] mb-2  bg-white border-gray-300 border-solid border h-[320px] mr-[200px]  '>
             <div className=''>
 
                 <div className='h-full w-full'>
@@ -66,7 +66,7 @@ const CardComponent = () => {
                 </div>
             </div>
         </div>
-       </div>
+    
 
     )
 }

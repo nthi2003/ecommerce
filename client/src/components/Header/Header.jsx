@@ -7,7 +7,7 @@ import InputComponent from '../InputComponent/InputComponent';
 import ButtonComponent from '../ButtonComponent/ButtonComponent';
 const Header = () => {
   return (
-    <div className='grid grid-cols-6 gap-4 py-[10px] px-[120px] bg-slate-100 flex-nowrap'>
+    <div className='grid grid-cols-6 gap-4 py-[10px] lg:px-[120px] md:px-[3px] bg-slate-100 flex-nowrap'>
       <div className='col-start-1 col-end-2 text-[18px] text-slate-900 items-center mt-[15px]'>OKINAWA</div>
       <div className='col-start-2 col-end-5 w-full flex relative border border-solid border-1 border-[##dddde3] rounded-[8px] items-center'>
         <CiSearch className='w-[20px] h-[24px] bg-transparent ml-[18px]' />

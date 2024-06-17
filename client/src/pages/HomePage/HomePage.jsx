@@ -10,7 +10,7 @@ const HomePage = () => {
   const arr = [ 'Laptop', 'TV' , 'Máy giặt','Quần áo' ]
   return (
     <>
-     <div className='px-[120px]'>
+     <div className='lg:px-[120px] sm:px-[30px]'>
     <div className='flex items-center gap-[24px] justify-start border-b-[1px] h-[44px]'>
     {arr.map((item , index) => {
         return (
@@ -21,9 +21,10 @@ const HomePage = () => {
     </div>
       
     </div>  
-    <div id="container"  className='bg-[#efefef] px-[120px] h-full' >
+    <div id="container"  className='bg-[#efefef] lg:px-[120px] h-full' >
       <SiliderComponent arrImg={ [Slider3 , Slider4] }/>
-      <div className='mt-[20px] grid grid-cols-10  '>
+      <div className='mt-[20px] grid lg:grid-cols-10 sm:grid-cols-2    '>
+       
         <CardComponent />
         <CardComponent />
         <CardComponent />
@@ -34,7 +35,10 @@ const HomePage = () => {
         <CardComponent />
         <CardComponent />
         <CardComponent />
-        
+        <CardComponent />
+
+      
+       
       </div>
       <ButtomComponent value='Xem Thêm' buttomStyle='border border-blue-400 border-solid  bg-white px-[85px] hover:bg-blue-500  ' spanStyle='text-sm text-blue-500 hover:text-white  ' type="outline" />
       </div>
